@@ -1,6 +1,12 @@
 package com.shiroSpringboot.vo;
 
-public class Page {
+import java.io.Serializable;
+
+public class Page implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**当前页数*/
 	private Integer pageNum = 1;
 	/**每页显示数量*/

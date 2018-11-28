@@ -50,6 +50,7 @@ public class MvcConfig implements WebMvcConfigurer	{
     	//addViewContorller是页面访问的路径，setviewName 是contorller对应的方法路径
         registry.addViewController("/login").setViewName("login");
         registry.addViewController("/index").setViewName("login");
+        registry.addViewController("/").setViewName("login");
     
 	}
 

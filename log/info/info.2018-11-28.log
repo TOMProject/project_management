@@ -1127,3 +1127,388 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 17:48:14.634 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
 17:48:14.641 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 8.893 seconds (JVM running for 9.503)
 17:48:14.653 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 17:48:14.653
+23:21:32.908 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 4412 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:21:32.962 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:21:33.579 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dec700: startup date [Wed Nov 28 23:21:33 CST 2018]; root of context hierarchy
+23:21:37.694 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:21:39.657 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$86b36ec1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:21:40.165 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:21:40.170 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$ace3886d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:21:40.270 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:21:40.272 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ebfa934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:21:56.673 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:21:56.823 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:21:57.003 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:21:57.004 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:21:57.084 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:21:57.637 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:21:57.638 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 24059 ms
+23:21:57.878 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:21:57.886 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:21:57.887 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:21:57.887 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:21:57.887 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:21:59.833 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:22:00.105 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23:35:46.790 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 3160 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:35:46.800 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:35:46.906 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@eb3185: startup date [Wed Nov 28 23:35:46 CST 2018]; root of context hierarchy
+23:35:47.872 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:35:48.614 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$90c5a690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:48.836 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:48.839 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$b6f5c03c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:48.866 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:48.867 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88d1e103] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:53.057 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:35:53.084 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:35:53.130 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:35:53.130 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:35:53.153 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:35:53.530 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:35:53.530 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6624 ms
+23:35:53.695 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:35:53.719 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:35:53.719 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:35:53.720 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:35:53.720 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:35:55.116 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:35:56.155 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@eb3185: startup date [Wed Nov 28 23:35:46 CST 2018]; root of context hierarchy
+23:35:56.377 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:35:56.379 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:35:56.383 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:35:56.384 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:35:56.402 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:35:56.403 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:35:56.429 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:35:56.429 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:35:56.429 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:35:58.030 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:35:58.031 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:35:58.043 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:35:58.074 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:35:58.176 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:35:58.286 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+23:35:58.292 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 12.265 seconds (JVM running for 13.139)
+23:35:58.308 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:35:58.308
+23:36:30.152 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:36:30.153 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:36:30.205 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+23:40:39.162 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 6332 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:40:39.174 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:40:39.283 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@383572: startup date [Wed Nov 28 23:40:39 CST 2018]; root of context hierarchy
+23:40:40.233 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:40:40.983 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$41e73cab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:40:41.204 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:40:41.207 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$68175657] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:40:41.233 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:40:41.234 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39f3771e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:40:45.445 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:40:45.470 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:40:45.506 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:40:45.507 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:40:45.526 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:40:45.839 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:40:45.839 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6557 ms
+23:40:45.969 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:40:45.976 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:40:45.976 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:40:45.977 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:40:45.977 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:40:46.960 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:40:47.517 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@383572: startup date [Wed Nov 28 23:40:39 CST 2018]; root of context hierarchy
+23:40:47.658 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:40:47.661 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:40:47.664 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:40:47.666 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:40:47.685 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:40:47.685 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:40:47.685 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:40:47.712 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:40:47.712 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:40:47.712 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:40:48.646 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:40:48.647 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:40:48.676 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:40:48.692 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:40:48.708 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:40:48.764 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+23:40:48.771 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 10.49 seconds (JVM running for 11.263)
+23:40:48.783 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:40:48.783
+23:41:00.378 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:41:00.378 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:41:00.435 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+23:42:42.103 sms [http-nio-8081-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:44:08.739 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 7104 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:44:08.750 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:44:08.853 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1213651: startup date [Wed Nov 28 23:44:08 CST 2018]; root of context hierarchy
+23:44:09.812 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:44:10.551 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$4ba57792] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:44:10.771 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:44:10.774 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$71d5913e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:44:10.800 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:44:10.801 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$43b1b205] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:44:14.981 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:44:15.005 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:44:15.041 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:44:15.041 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:44:15.060 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:44:15.366 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:44:15.366 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6513 ms
+23:44:15.500 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:44:15.507 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:44:15.508 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:44:15.508 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:44:15.508 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:44:16.513 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:44:17.078 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1213651: startup date [Wed Nov 28 23:44:08 CST 2018]; root of context hierarchy
+23:44:17.223 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:44:17.225 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:44:17.229 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:44:17.230 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:44:17.247 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:44:17.248 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:44:17.248 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:44:17.273 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:44:17.274 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:44:17.274 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:44:18.325 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:44:18.327 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:44:18.338 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:44:18.355 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:44:18.371 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:44:18.436 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+23:44:18.442 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 10.487 seconds (JVM running for 11.326)
+23:44:18.455 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:44:18.455
+23:44:26.788 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:44:26.789 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:44:26.827 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+23:44:27.654 sms [http-nio-8081-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:46:20.340 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 3288 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:46:20.351 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:46:20.460 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ba0741: startup date [Wed Nov 28 23:46:20 CST 2018]; root of context hierarchy
+23:46:21.559 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:46:22.324 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$b402cb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:46:22.551 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:46:22.554 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$31704661] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:46:22.580 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:46:22.581 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34c6728] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:46:26.674 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:46:26.698 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:46:26.733 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:46:26.734 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:46:26.750 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:46:27.067 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:46:27.068 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6609 ms
+23:46:27.184 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:46:27.191 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:46:27.192 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:46:27.192 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:46:27.192 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:46:28.142 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:46:28.710 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ba0741: startup date [Wed Nov 28 23:46:20 CST 2018]; root of context hierarchy
+23:46:28.858 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:46:28.860 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:46:28.863 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:46:28.864 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:46:28.883 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:46:28.883 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:46:28.883 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:46:28.909 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:46:28.910 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:46:28.910 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:46:29.851 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:46:29.863 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:46:29.874 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:46:29.889 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:46:29.906 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:46:29.952 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+23:46:29.962 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 10.428 seconds (JVM running for 11.292)
+23:46:29.974 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:46:29.974
+23:46:35.988 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:46:35.988 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:46:36.046 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 58 ms
+23:46:36.879 sms [http-nio-8081-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:47:23.597 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 7936 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:47:23.609 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:47:23.729 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@359a82: startup date [Wed Nov 28 23:47:23 CST 2018]; root of context hierarchy
+23:47:24.721 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:47:25.650 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$f4aca4d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:47:25.809 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:47:25.813 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$1adcbe7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:47:25.840 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:47:25.841 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ecb8df43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:47:30.076 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:47:30.114 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:47:30.140 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:47:30.141 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:47:30.159 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:47:30.484 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:47:30.484 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6756 ms
+23:47:30.667 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:47:30.677 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:47:30.678 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:47:30.678 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:47:30.679 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:47:49.969 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:47:50.556 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@359a82: startup date [Wed Nov 28 23:47:23 CST 2018]; root of context hierarchy
+23:47:50.700 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:47:50.702 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:47:50.706 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:47:50.707 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:47:50.727 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:47:50.727 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:47:50.727 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:47:50.773 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:47:50.773 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:47:50.773 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:47:51.713 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:47:51.715 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:47:51.726 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:47:51.741 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:47:51.757 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:47:51.788 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+23:47:51.796 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 29.032 seconds (JVM running for 29.893)
+23:47:51.813 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:47:51.813
+23:48:22.438 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 9272 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:48:22.446 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:48:22.558 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b669c3: startup date [Wed Nov 28 23:48:22 CST 2018]; root of context hierarchy
+23:48:23.645 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:48:24.527 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$8071c58a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:24.730 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:24.733 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$a6a1df36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:24.760 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:24.761 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$787dfffd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:29.022 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:48:29.047 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:48:29.070 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:48:29.071 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:48:29.091 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:48:29.392 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:48:29.393 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6835 ms
+23:48:29.525 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:48:29.532 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:48:29.533 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:48:29.533 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:48:29.533 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:48:52.463 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:48:53.228 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b669c3: startup date [Wed Nov 28 23:48:22 CST 2018]; root of context hierarchy
+23:48:53.355 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:48:53.358 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:48:53.362 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:48:53.363 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:48:53.396 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:48:53.397 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:48:53.397 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:48:53.424 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:48:53.424 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:48:53.424 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:48:54.407 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:48:54.409 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:48:54.420 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:48:54.436 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:48:54.454 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+23:48:54.454 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:48:54.502 sms [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+23:48:54.502 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+23:48:54.503 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+23:48:54.519 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23:48:54.524 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b669c3: startup date [Wed Nov 28 23:48:22 CST 2018]; root of context hierarchy
+23:48:54.527 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+23:48:54.528 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+23:51:25.151 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 10196 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:51:25.180 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:51:25.304 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@167b837: startup date [Wed Nov 28 23:51:25 CST 2018]; root of context hierarchy
+23:51:26.320 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:51:27.101 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$e23f2acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:51:27.371 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:51:27.375 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$86f4477] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:51:27.413 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:51:27.415 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da4b653e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:51:31.664 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+23:51:31.688 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:51:31.722 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:51:31.723 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:51:31.739 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:51:32.041 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:51:32.042 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6737 ms
+23:51:32.158 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:51:32.165 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:51:32.171 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:51:32.171 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:51:32.171 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:51:43.562 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:51:44.252 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@167b837: startup date [Wed Nov 28 23:51:25 CST 2018]; root of context hierarchy
+23:51:44.398 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:51:44.401 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:51:44.405 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:51:44.406 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:51:44.431 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:51:44.431 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:51:44.432 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:51:44.466 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:51:44.467 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:51:44.467 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:51:45.519 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:51:45.520 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:51:45.532 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:51:45.547 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:51:45.565 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+23:51:45.565 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:51:45.609 sms [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+23:51:45.610 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+23:51:45.610 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+23:51:45.615 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23:51:45.620 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@167b837: startup date [Wed Nov 28 23:51:25 CST 2018]; root of context hierarchy
+23:51:45.623 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+23:51:45.624 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+23:53:11.578 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on PC-20170809KMOO with PID 6296 (C:\Users\Administrator\git\shiroSpringboot\target\classes started by Administrator in C:\Users\Administrator\git\shiroSpringboot)
+23:53:11.590 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+23:53:11.698 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@164faa6: startup date [Wed Nov 28 23:53:11 CST 2018]; root of context hierarchy
+23:53:12.693 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:53:13.470 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'datasourceConfig' of type [com.shiroSpringboot.config.DatasourceConfig$$EnhancerBySpringCGLIB$$8a818f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:53:13.687 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'getDataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:53:13.690 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisConfig' of type [com.shiroSpringboot.config.MybatisConfig$$EnhancerBySpringCGLIB$$b0b1a8e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:53:13.717 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:53:13.718 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$828dc9a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:53:17.817 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+23:53:17.842 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:53:17.877 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:53:17.878 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+23:53:17.900 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javaJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/javaJDK/bin/client;D:/javaJDK/bin;D:/javaJDK/lib/i386;d:\Ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\eclipse-jee-oxygen-R-win32\eclipse;;.]
+23:53:18.176 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:53:18.176 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6479 ms
+23:53:18.296 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:53:18.303 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:53:18.304 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:53:18.304 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:53:18.304 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:53:26.272 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:53:26.830 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@164faa6: startup date [Wed Nov 28 23:53:11 CST 2018]; root of context hierarchy
+23:53:26.967 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/doLogin/login],methods=[GET]}" onto public java.lang.String com.shiroSpringboot.controller.LoginController.doLogin()
+23:53:26.969 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/listPaging],methods=[POST]}" onto public com.shiroSpringboot.vo.AjaxResponse<com.shiroSpringboot.vo.ShowPage<com.shiroSpringboot.vo.resultvo.UserVo>> com.shiroSpringboot.controller.UserController.selectUserSelectivePaging(com.shiroSpringboot.vo.resultvo.UserVo)
+23:53:26.972 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:53:26.973 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:53:26.993 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:53:26.993 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:53:26.993 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+23:53:27.020 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:53:27.020 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:53:27.021 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:53:27.971 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:53:27.973 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+23:53:27.985 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+23:53:28.000 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:53:28.017 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:53:28.066 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+23:53:28.072 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 17.257 seconds (JVM running for 18.11)
+23:53:28.090 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-28 23:53:28.090
+23:53:45.015 sms [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:53:45.016 sms [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:53:45.069 sms [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+23:53:45.990 sms [http-nio-8088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

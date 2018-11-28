@@ -117,12 +117,27 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<version>9.0.10</version>
 		</dependency> -->
-		<!-- pagehelper 分页 -->
-<!-- 		<dependency>
-		  <groupId>com.github.pagehelper</groupId>
-		  <artifactId>pagehelper</artifactId>
-		  <version>5.1.2</version>
-		</dependency> -->
+		
+	<!--redis -->
+	<dependency>
+		 <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-starter-data-redis</artifactId>
+	    <exclusions>
+	     <exclusion>
+	       <groupId>redis.clients</groupId>
+	       <artifactId>jedis</artifactId>
+	     </exclusion>
+	     <exclusion>
+	       <groupId>io.lettuce</groupId>
+	       <artifactId>lettuce-core</artifactId>
+	     </exclusion>
+	    </exclusions>
+	</dependency>
+	<dependency>
+	    <groupId>redis.clients</groupId>
+	    <artifactId>jedis</artifactId>
+	</dependency>
+
 
 	</dependencies>
 	<build>

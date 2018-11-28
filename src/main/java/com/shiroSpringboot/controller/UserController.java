@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.shiroSpringboot.common.Contant;
+import com.shiroSpringboot.config.RedisCache;
 import com.shiroSpringboot.entity.User;
 import com.shiroSpringboot.service.UserService;
 import com.shiroSpringboot.vo.AjaxResponse;
@@ -22,6 +23,9 @@ public class UserController {
 
 	@Autowired
 	private UserService userSer;
+	@Autowired
+	private RedisCache redisCache;
+	
 	
 	@RequestMapping(value="/listPaging",method=RequestMethod.POST)
 	@ResponseBody
@@ -30,6 +34,7 @@ public class UserController {
 		ShowPage<UserVo> page = new ShowPage<>(userVo, userList);
 		AjaxResponse<ShowPage<UserVo>> ajaxResponse = new AjaxResponse<ShowPage<UserVo>>(Contant.RESULT_SUCCESS,"获取用户数据成功！");
 		ajaxResponse.setData(page);
+		redisCache.set("springbootkey",userList);
 		return ajaxResponse;
 		
 		
