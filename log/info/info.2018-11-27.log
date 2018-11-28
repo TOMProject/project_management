@@ -1,0 +1,1013 @@
+09:35:42.901 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 17736 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+09:35:42.909 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+09:35:42.971 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c989952: startup date [Tue Nov 27 09:35:42 CST 2018]; root of context hierarchy
+09:35:44.879 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+09:35:45.041 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+09:35:45.067 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:35:45.067 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+09:35:45.184 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+09:35:45.478 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:35:45.478 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2507 ms
+09:35:45.747 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+09:35:45.758 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+09:35:45.763 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:35:45.763 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:35:45.766 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:35:45.767 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:35:45.768 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+09:35:45.933 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:35:45.993 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:38:24.759 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 13304 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+09:38:24.765 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+09:38:24.877 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70efb718: startup date [Tue Nov 27 09:38:24 CST 2018]; root of context hierarchy
+09:38:27.003 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+09:38:27.027 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+09:38:27.045 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:38:27.045 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+09:38:27.103 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+09:38:27.258 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:38:27.258 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2382 ms
+09:38:27.405 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+09:38:27.408 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+09:38:27.416 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:38:27.416 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:38:27.416 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:38:27.417 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:38:27.417 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+09:38:27.603 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:38:27.679 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:47:05.105 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 516 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+09:47:05.159 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+09:47:05.234 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56e8b606: startup date [Tue Nov 27 09:47:05 CST 2018]; root of context hierarchy
+09:47:06.767 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+09:47:06.797 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+09:47:06.810 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:47:06.811 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+09:47:06.833 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+09:47:06.981 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:47:06.981 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1747 ms
+09:47:07.070 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+09:47:07.076 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:47:07.077 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:47:07.077 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:47:07.077 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:47:07.234 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:47:07.286 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:44:24.692 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 13352 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+11:44:24.697 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+11:44:24.743 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f7923a5: startup date [Tue Nov 27 11:44:24 CST 2018]; root of context hierarchy
+11:44:26.269 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+11:44:26.296 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+11:44:26.310 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:44:26.311 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+11:44:26.329 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+11:44:26.457 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:44:26.458 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1715 ms
+11:44:26.537 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:44:26.545 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:44:26.547 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:44:26.548 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:44:26.549 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:44:26.688 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:44:26.726 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:47:59.772 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 1836 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+11:47:59.778 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+11:47:59.846 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ef27a8: startup date [Tue Nov 27 11:47:59 CST 2018]; root of context hierarchy
+11:48:01.808 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+11:48:01.832 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+11:48:01.845 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:48:01.846 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+11:48:01.856 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+11:48:01.963 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:48:01.964 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2118 ms
+11:48:02.038 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:48:02.043 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:48:02.044 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:48:02.044 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:48:02.044 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:48:02.182 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:48:02.403 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ef27a8: startup date [Tue Nov 27 11:47:59 CST 2018]; root of context hierarchy
+11:48:02.495 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:48:02.497 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:48:02.548 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:48:02.548 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:48:02.652 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:48:02.691 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:49:50.824 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 15432 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+11:49:50.836 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+11:49:50.911 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@386f0da3: startup date [Tue Nov 27 11:49:50 CST 2018]; root of context hierarchy
+11:49:52.333 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+11:49:52.359 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+11:49:52.374 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:49:52.376 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+11:49:52.396 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+11:49:52.521 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:49:52.522 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1610 ms
+11:49:52.613 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:49:52.618 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:49:52.619 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:49:52.619 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:49:52.619 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:49:52.800 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:53.039 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@386f0da3: startup date [Tue Nov 27 11:49:50 CST 2018]; root of context hierarchy
+11:49:53.129 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:49:53.131 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:49:53.169 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:53.169 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:53.277 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:49:53.343 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:01:37.775 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 16956 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+12:01:37.783 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+12:01:37.862 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f9a2c08: startup date [Tue Nov 27 12:01:37 CST 2018]; root of context hierarchy
+12:01:39.623 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+12:01:39.652 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+12:01:39.670 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:01:39.671 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+12:01:39.686 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+12:01:39.802 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:01:39.803 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1940 ms
+12:01:39.890 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+12:01:39.894 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:01:39.895 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:01:39.895 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:01:39.895 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:01:40.071 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:01:40.309 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f9a2c08: startup date [Tue Nov 27 12:01:37 CST 2018]; root of context hierarchy
+12:01:40.399 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:01:40.401 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:01:40.447 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:01:40.448 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:01:40.550 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:01:40.594 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:03:28.892 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 10440 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+12:03:28.898 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+12:03:28.968 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2ed0cd: startup date [Tue Nov 27 12:03:28 CST 2018]; root of context hierarchy
+12:03:30.404 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+12:03:30.424 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+12:03:30.436 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:03:30.438 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+12:03:30.450 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+12:03:30.574 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:03:30.574 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1606 ms
+12:03:30.654 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+12:03:30.660 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:03:30.661 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:03:30.661 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:03:30.661 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:03:30.810 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:03:31.034 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2ed0cd: startup date [Tue Nov 27 12:03:28 CST 2018]; root of context hierarchy
+12:03:31.120 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:03:31.123 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:03:31.165 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:03:31.166 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:03:31.274 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:03:31.327 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:05:23.123 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 13116 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+12:05:23.130 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+12:05:23.186 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7dda48d9: startup date [Tue Nov 27 12:05:23 CST 2018]; root of context hierarchy
+12:05:24.461 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+12:05:24.483 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+12:05:24.496 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:05:24.498 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+12:05:24.519 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+12:05:24.633 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:05:24.634 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1448 ms
+12:05:24.728 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+12:05:24.734 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:05:24.734 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:05:24.734 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:05:24.734 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:05:24.903 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:05:25.151 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7dda48d9: startup date [Tue Nov 27 12:05:23 CST 2018]; root of context hierarchy
+12:05:25.230 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:05:25.231 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:05:25.262 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:05:25.264 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:05:25.451 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:05:25.466 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+12:05:25.478 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:05:25.533 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+12:05:25.539 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 3.118 seconds (JVM running for 3.724)
+12:05:25.548 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 12:05:25.548
+12:05:48.337 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:05:48.338 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:05:48.380 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+14:06:16.570 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7672 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+14:06:16.584 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+14:06:16.637 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b6e2263: startup date [Tue Nov 27 14:06:16 CST 2018]; root of context hierarchy
+14:06:18.003 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:06:18.045 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:06:18.079 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:06:18.079 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+14:06:18.104 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+14:06:18.362 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:06:18.362 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1725 ms
+14:06:18.465 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:06:18.471 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:06:18.472 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:06:18.472 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:06:18.472 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:06:18.614 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:06:18.982 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b6e2263: startup date [Tue Nov 27 14:06:16 CST 2018]; root of context hierarchy
+14:06:19.110 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+14:06:19.112 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:06:19.152 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:06:19.153 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:06:19.405 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+14:06:19.419 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:06:19.430 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:06:19.455 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:06:19.471 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 3.491 seconds (JVM running for 4.174)
+14:06:19.483 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 14:06:19.483
+14:06:48.608 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+14:06:48.608 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+14:06:48.632 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+14:08:12.617 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 9240 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+14:08:12.622 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+14:08:12.695 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d470d0: startup date [Tue Nov 27 14:08:12 CST 2018]; root of context hierarchy
+14:08:14.747 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:08:14.772 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:08:14.788 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:08:14.789 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+14:08:14.805 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+14:08:14.958 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:08:14.959 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2264 ms
+14:08:15.052 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:08:15.058 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:08:15.059 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:08:15.060 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:08:15.061 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:08:15.241 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:08:15.509 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d470d0: startup date [Tue Nov 27 14:08:12 CST 2018]; root of context hierarchy
+14:08:15.618 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+14:08:15.628 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:08:15.700 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:08:15.701 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:08:16.028 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+14:08:16.043 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:08:16.056 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:08:16.086 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:08:16.094 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 4.192 seconds (JVM running for 4.816)
+14:08:16.105 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 14:08:16.105
+15:14:41.339 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 16580 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+15:14:41.344 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+15:14:41.400 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f22f9d: startup date [Tue Nov 27 15:14:41 CST 2018]; root of context hierarchy
+15:14:42.645 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+15:14:42.669 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+15:14:42.683 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:14:42.684 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+15:14:42.697 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+15:14:42.843 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:14:42.844 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1443 ms
+15:14:42.926 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:14:42.932 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:14:42.932 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:14:42.932 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:14:42.933 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:14:43.003 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:14:43.045 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:22:11.911 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 17392 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+15:22:11.916 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+15:22:11.982 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b213651: startup date [Tue Nov 27 15:22:11 CST 2018]; root of context hierarchy
+15:22:13.012 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:35:28.316 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 16448 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+15:35:28.323 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+15:35:28.420 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51133c06: startup date [Tue Nov 27 15:35:28 CST 2018]; root of context hierarchy
+15:35:29.571 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:02:27.324 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 4312 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:02:27.347 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:02:27.410 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2ed0cd: startup date [Tue Nov 27 16:02:27 CST 2018]; root of context hierarchy
+16:02:28.453 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:10:24.856 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7460 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:10:24.869 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:10:24.932 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f22f9d: startup date [Tue Nov 27 16:10:24 CST 2018]; root of context hierarchy
+16:10:25.793 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:18:22.880 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7648 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:18:22.885 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:18:22.969 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16b2bb0c: startup date [Tue Nov 27 16:18:22 CST 2018]; root of context hierarchy
+16:18:23.914 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:19:14.425 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7452 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:19:14.431 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:19:14.505 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19e7a160: startup date [Tue Nov 27 16:19:14 CST 2018]; root of context hierarchy
+16:19:15.988 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:19:16.011 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:19:16.025 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:19:16.026 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:19:16.046 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:19:16.172 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:19:16.174 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1669 ms
+16:19:16.264 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:19:16.271 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:19:16.272 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:19:16.273 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:19:16.273 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:20:16.740 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:20:16.799 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:21:16.508 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 17580 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:21:16.515 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:21:16.605 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5be49b60: startup date [Tue Nov 27 16:21:16 CST 2018]; root of context hierarchy
+16:21:17.991 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:21:18.015 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:21:18.029 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:21:18.030 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:21:18.048 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:21:18.167 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:21:18.168 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1563 ms
+16:21:18.250 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:21:18.257 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:21:18.258 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:21:18.259 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:21:18.259 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:21:51.295 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:21:51.581 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5be49b60: startup date [Tue Nov 27 16:21:16 CST 2018]; root of context hierarchy
+16:21:51.702 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:21:51.704 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:21:51.740 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:21:51.741 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:21:51.834 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:21:52.052 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:21:52.056 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:21:52.291 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:45:15.464 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 17872 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:45:15.474 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:45:15.592 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e19ebf0: startup date [Tue Nov 27 16:45:15 CST 2018]; root of context hierarchy
+16:45:17.011 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:45:17.035 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:45:17.049 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:45:17.050 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:45:17.062 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:45:17.177 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:45:17.177 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1585 ms
+16:45:17.260 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:45:17.266 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:45:17.266 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:45:17.267 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:45:17.267 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:45:42.174 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:45:42.416 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e19ebf0: startup date [Tue Nov 27 16:45:15 CST 2018]; root of context hierarchy
+16:45:42.534 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:45:42.535 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:45:42.574 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:45:42.574 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:45:42.639 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:45:42.950 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:45:42.952 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+16:45:43.097 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+16:45:43.116 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+16:45:43.128 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:45:43.176 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+16:45:43.200 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 28.183 seconds (JVM running for 28.889)
+16:45:43.272 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 16:45:43.272
+16:46:44.954 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 6376 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:46:44.959 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:46:45.040 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cf56a1c: startup date [Tue Nov 27 16:46:45 CST 2018]; root of context hierarchy
+16:46:46.465 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:46:46.488 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:46:46.501 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:46:46.504 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:46:46.517 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:46:46.639 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:46:46.640 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1600 ms
+16:46:46.725 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:46:46.731 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:46:46.731 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:46:46.731 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:46:46.732 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:47:09.233 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:47:09.646 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cf56a1c: startup date [Tue Nov 27 16:46:45 CST 2018]; root of context hierarchy
+16:47:09.789 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:47:09.791 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:47:09.848 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:47:09.853 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:47:09.962 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:47:10.257 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:47:10.258 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+16:47:10.264 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+16:47:10.399 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+16:47:10.419 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:47:10.469 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+16:47:10.478 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 25.965 seconds (JVM running for 26.592)
+16:47:10.558 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 16:47:10.558
+16:50:42.855 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 12296 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:50:42.859 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:50:42.946 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21d03963: startup date [Tue Nov 27 16:50:42 CST 2018]; root of context hierarchy
+16:50:44.733 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:50:44.761 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:50:44.778 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:50:44.779 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:50:44.799 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:50:44.929 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:50:44.930 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1984 ms
+16:50:45.014 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:50:45.021 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:50:45.022 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:50:45.022 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:50:45.022 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:50:52.216 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:50:52.466 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21d03963: startup date [Tue Nov 27 16:50:42 CST 2018]; root of context hierarchy
+16:50:52.584 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:50:52.586 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:50:52.623 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:50:52.624 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:50:52.694 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:50:52.976 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:50:52.977 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+16:50:52.984 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+16:50:52.999 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+16:50:53.102 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:50:53.117 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+16:50:53.122 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 10.72 seconds (JVM running for 11.342)
+16:50:53.133 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 16:50:53.133
+16:53:57.449 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 15480 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:53:57.457 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:53:57.565 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5be49b60: startup date [Tue Nov 27 16:53:57 CST 2018]; root of context hierarchy
+16:53:59.126 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:53:59.153 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:53:59.168 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:53:59.169 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:53:59.185 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:53:59.300 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:53:59.301 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1736 ms
+16:53:59.396 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:53:59.402 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:53:59.402 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:53:59.402 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:53:59.402 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:53:59.473 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:53:59.536 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:55:35.066 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 2428 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:55:35.072 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:55:35.152 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4eaf3684: startup date [Tue Nov 27 16:55:35 CST 2018]; root of context hierarchy
+16:55:36.580 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:55:36.605 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:55:36.619 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:55:36.620 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:55:36.642 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:55:36.766 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:55:36.768 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1616 ms
+16:55:36.857 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:55:36.863 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:55:36.864 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:55:36.864 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:55:36.865 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:55:36.933 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:55:36.981 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:56:01.155 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 9176 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:56:01.167 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:56:01.245 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b86de0d: startup date [Tue Nov 27 16:56:01 CST 2018]; root of context hierarchy
+16:56:02.648 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:56:02.671 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:56:02.685 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:56:02.686 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:56:02.699 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:56:02.821 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:56:02.822 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1577 ms
+16:56:02.908 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:56:02.914 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:56:02.915 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:56:02.915 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:56:02.916 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:56:02.983 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:56:03.025 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:56:36.222 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 2804 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:56:36.227 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:56:36.321 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b86de0d: startup date [Tue Nov 27 16:56:36 CST 2018]; root of context hierarchy
+16:56:37.935 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:56:37.961 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:56:37.976 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:56:37.976 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:56:37.996 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:56:38.154 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:56:38.154 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1833 ms
+16:56:38.256 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:56:38.262 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:56:38.262 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:56:38.262 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:56:38.262 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:57:00.078 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:57:00.326 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b86de0d: startup date [Tue Nov 27 16:56:36 CST 2018]; root of context hierarchy
+16:57:00.457 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:57:00.459 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:57:00.504 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:57:00.505 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:57:00.572 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:57:00.903 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:57:00.905 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+16:57:00.913 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+16:57:00.925 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+16:57:01.047 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:57:01.080 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+16:57:01.091 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 25.336 seconds (JVM running for 25.894)
+16:57:01.111 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 16:57:01.111
+16:57:59.328 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 4576 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:57:59.334 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:57:59.446 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40317ba2: startup date [Tue Nov 27 16:57:59 CST 2018]; root of context hierarchy
+16:58:00.904 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:58:00.926 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:58:00.939 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:58:00.941 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:58:00.954 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:58:01.079 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:58:01.080 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1634 ms
+16:58:01.158 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:58:01.165 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:58:01.166 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:58:01.167 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:58:01.167 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:58:01.246 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:58:01.308 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:58:57.688 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 8696 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+16:58:57.706 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+16:58:57.834 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7de62196: startup date [Tue Nov 27 16:58:57 CST 2018]; root of context hierarchy
+16:58:59.200 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16:58:59.222 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+16:58:59.235 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:58:59.236 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:58:59.257 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+16:58:59.389 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:58:59.391 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1557 ms
+16:58:59.478 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:58:59.484 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:58:59.485 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:58:59.485 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:58:59.485 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:59:03.558 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:59:03.894 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7de62196: startup date [Tue Nov 27 16:58:57 CST 2018]; root of context hierarchy
+16:59:03.970 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:59:03.973 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:59:04.005 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:59:04.006 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:59:04.066 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+16:59:04.386 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:59:04.388 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+16:59:04.394 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+16:59:04.405 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+16:59:04.421 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:59:04.446 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+16:59:04.508 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 7.257 seconds (JVM running for 7.966)
+16:59:04.517 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 16:59:04.517
+17:01:12.720 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 11252 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:01:12.732 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:01:12.851 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ca26d77: startup date [Tue Nov 27 17:01:12 CST 2018]; root of context hierarchy
+17:01:14.526 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:01:14.553 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:01:14.569 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:01:14.570 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:01:14.585 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:01:14.696 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:01:14.696 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1845 ms
+17:01:14.773 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:01:14.779 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:01:14.779 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:01:14.780 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:01:14.780 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:01:17.334 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:17.647 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ca26d77: startup date [Tue Nov 27 17:01:12 CST 2018]; root of context hierarchy
+17:01:17.736 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:01:17.738 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:01:17.773 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:17.773 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:17.836 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:01:18.281 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:01:18.284 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:01:18.292 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:01:18.308 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:01:18.327 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:01:18.374 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:01:18.386 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 6.173 seconds (JVM running for 6.804)
+17:01:18.443 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:01:18.443
+17:11:27.377 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 17580 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:11:27.416 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:11:27.489 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ca18a14: startup date [Tue Nov 27 17:11:27 CST 2018]; root of context hierarchy
+17:11:28.898 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:11:28.916 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:11:28.930 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:11:28.931 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:11:28.945 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:11:29.405 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:11:29.467 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:11:29.468 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1979 ms
+17:11:29.588 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:11:29.597 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:11:29.597 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:11:29.598 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:11:29.599 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:11:29.934 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:11:29.970 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:12:23.138 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 11136 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:12:23.146 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:12:23.252 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@35b74c5c: startup date [Tue Nov 27 17:12:23 CST 2018]; root of context hierarchy
+17:12:24.576 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:12:24.599 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:12:24.612 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:12:24.613 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:12:24.626 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:12:24.896 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:12:24.919 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:12:24.920 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1668 ms
+17:12:25.012 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:12:25.018 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:12:25.019 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:12:25.019 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:12:25.020 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:12:25.254 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:12:25.287 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:13:29.515 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 11420 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:13:29.522 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:13:29.611 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4808bc9b: startup date [Tue Nov 27 17:13:29 CST 2018]; root of context hierarchy
+17:13:31.143 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:13:31.165 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:13:31.180 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:13:31.182 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:13:31.196 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:13:31.492 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:13:31.530 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:13:31.533 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1921 ms
+17:13:31.625 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:13:31.630 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:13:31.631 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:13:31.631 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:13:31.632 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:13:31.876 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:13:31.932 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:14:39.464 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7148 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:14:39.469 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:14:39.561 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2931522b: startup date [Tue Nov 27 17:14:39 CST 2018]; root of context hierarchy
+17:14:40.973 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:14:40.995 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:14:41.008 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:14:41.009 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:14:41.033 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:14:41.359 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:14:41.377 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:14:41.377 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1816 ms
+17:14:41.452 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:14:41.459 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:14:41.459 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:14:41.460 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:14:41.460 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:14:41.682 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:14:41.725 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:18:08.320 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 14496 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:18:08.327 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:18:08.473 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c5ae43b: startup date [Tue Nov 27 17:18:08 CST 2018]; root of context hierarchy
+17:18:09.861 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:18:09.877 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:18:09.893 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:18:09.893 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:18:09.908 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:18:10.258 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:18:10.264 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:18:10.264 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1791 ms
+17:18:10.357 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:18:10.362 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:18:10.362 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:18:10.363 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:18:10.363 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:18:10.570 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:18:10.600 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:18:43.386 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 7988 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:18:43.394 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:18:43.495 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ebea008: startup date [Tue Nov 27 17:18:43 CST 2018]; root of context hierarchy
+17:18:45.154 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:18:45.177 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:18:45.189 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:18:45.191 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:18:45.213 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:18:45.517 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:18:45.525 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:18:45.525 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2030 ms
+17:18:45.600 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:18:45.607 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:18:45.608 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:18:45.609 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:18:45.610 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:18:45.820 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:18:45.855 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:20:54.227 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 8804 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:20:54.242 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:20:54.343 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5117dd67: startup date [Tue Nov 27 17:20:54 CST 2018]; root of context hierarchy
+17:20:56.093 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:20:56.115 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:20:56.128 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:20:56.129 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:20:56.148 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:20:56.455 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:20:56.463 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:20:56.464 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2121 ms
+17:20:56.549 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:20:56.555 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:20:56.556 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:20:56.556 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:20:56.557 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:21:56.322 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:21:56.562 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5117dd67: startup date [Tue Nov 27 17:20:54 CST 2018]; root of context hierarchy
+17:21:56.652 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:21:56.654 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:21:56.690 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:21:56.690 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:21:56.756 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:21:57.089 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:21:57.090 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:21:57.097 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:21:57.119 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:21:57.133 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:21:57.222 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:21:57.226 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 63.507 seconds (JVM running for 64.13)
+17:21:57.234 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:21:57.234
+17:22:37.385 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 2952 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:22:37.390 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:22:37.486 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4808bc9b: startup date [Tue Nov 27 17:22:37 CST 2018]; root of context hierarchy
+17:22:38.913 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:22:38.935 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:22:38.948 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:22:38.949 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:22:38.962 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:22:39.259 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:22:39.265 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:22:39.266 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1780 ms
+17:22:39.349 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:22:39.355 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:22:39.356 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:22:39.356 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:22:39.357 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:25:06.216 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:25:06.644 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4808bc9b: startup date [Tue Nov 27 17:22:37 CST 2018]; root of context hierarchy
+17:25:06.782 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:25:06.785 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:25:06.849 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:25:06.851 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:25:06.971 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:25:07.297 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:25:07.298 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:25:07.305 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:25:07.323 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:25:07.335 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:25:07.392 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:25:07.468 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 150.531 seconds (JVM running for 151.151)
+17:25:07.483 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:25:07.483
+17:26:22.376 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 5268 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:26:22.383 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:26:22.481 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c667f46: startup date [Tue Nov 27 17:26:22 CST 2018]; root of context hierarchy
+17:26:23.915 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:26:23.938 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:26:23.951 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:26:23.952 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:26:23.966 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:26:24.248 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:26:24.256 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:26:24.256 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1775 ms
+17:26:24.337 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:26:24.342 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:26:24.343 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:26:24.344 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:26:24.344 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:26:50.626 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:26:50.954 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c667f46: startup date [Tue Nov 27 17:26:22 CST 2018]; root of context hierarchy
+17:26:51.035 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:26:51.038 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:26:51.075 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:26:51.075 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:26:51.134 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:26:51.539 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:26:51.541 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:26:51.549 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:26:51.569 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:26:51.582 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:26:51.700 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:26:51.708 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 29.789 seconds (JVM running for 30.445)
+17:26:51.725 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:26:51.725
+17:27:49.841 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 15100 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:27:49.847 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:27:49.969 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70e38ce1: startup date [Tue Nov 27 17:27:49 CST 2018]; root of context hierarchy
+17:27:51.386 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:27:51.409 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:27:51.425 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:27:51.426 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:27:51.444 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:27:51.759 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:27:51.766 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:27:51.767 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1797 ms
+17:27:51.871 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:27:51.878 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:27:51.879 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:27:51.879 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:27:51.880 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:30:06.657 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 9140 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:30:06.664 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:30:06.807 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51bf5add: startup date [Tue Nov 27 17:30:06 CST 2018]; root of context hierarchy
+17:30:08.353 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:30:08.375 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:30:08.389 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:30:08.389 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:30:08.444 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:30:08.700 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:30:08.708 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:30:08.709 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1902 ms
+17:30:08.787 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:30:08.793 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:30:08.794 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:30:08.794 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:30:08.795 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:32:56.617 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:32:56.860 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51bf5add: startup date [Tue Nov 27 17:30:06 CST 2018]; root of context hierarchy
+17:32:56.952 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:32:56.957 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:32:56.994 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:32:56.994 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:32:57.069 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:32:57.408 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:32:57.409 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:32:57.415 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:32:57.447 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:32:57.467 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:32:57.570 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:32:57.585 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 171.435 seconds (JVM running for 172.083)
+17:32:57.595 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:32:57.595
+17:33:47.663 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 15352 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:33:47.671 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:33:47.816 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@163370c2: startup date [Tue Nov 27 17:33:47 CST 2018]; root of context hierarchy
+17:33:49.212 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:33:49.243 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:33:49.258 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:33:49.259 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:33:49.279 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:33:49.587 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:33:49.594 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:49.595 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1779 ms
+17:33:49.711 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:33:49.717 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:33:49.718 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:33:49.719 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:33:49.719 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:33:49.827 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:33:49.870 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:35:22.280 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 4896 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:35:22.286 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:35:22.382 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41294f8: startup date [Tue Nov 27 17:35:22 CST 2018]; root of context hierarchy
+17:35:23.771 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:35:23.793 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:35:23.807 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:35:23.809 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:35:23.822 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:35:24.241 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:35:24.262 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:35:24.265 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1884 ms
+17:35:24.408 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:35:24.414 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:35:24.415 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:35:24.415 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:35:24.416 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:35:24.491 sms [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:35:24.531 sms [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:36:08.531 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 13056 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:36:08.540 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:36:08.630 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e19ebf0: startup date [Tue Nov 27 17:36:08 CST 2018]; root of context hierarchy
+17:36:10.090 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:36:10.114 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:36:10.128 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:36:10.129 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:36:10.150 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:36:10.461 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:36:10.478 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:36:10.479 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1848 ms
+17:36:10.571 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:36:10.580 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:36:10.580 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:36:10.581 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:36:10.581 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:36:13.012 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:36:13.262 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e19ebf0: startup date [Tue Nov 27 17:36:08 CST 2018]; root of context hierarchy
+17:36:13.346 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:36:13.349 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:36:13.400 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:36:13.400 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:36:13.480 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:36:13.818 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:36:13.820 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:36:13.826 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:36:13.837 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:36:13.848 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:36:13.940 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:36:13.945 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 5.866 seconds (JVM running for 6.542)
+17:36:13.955 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:36:13.955
+17:37:26.010 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 8344 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:37:26.020 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:37:26.088 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45d2ade3: startup date [Tue Nov 27 17:37:26 CST 2018]; root of context hierarchy
+17:37:27.471 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:37:27.494 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:37:27.508 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:37:27.509 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:37:27.521 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:37:27.714 sms [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:37:27.718 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:37:27.719 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1631 ms
+17:37:27.823 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:37:27.828 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:37:27.829 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:37:27.829 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:37:27.829 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:37:30.377 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:37:30.815 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45d2ade3: startup date [Tue Nov 27 17:37:26 CST 2018]; root of context hierarchy
+17:37:30.909 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:37:30.910 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:37:30.944 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:37:30.945 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:37:31.000 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:37:31.570 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:37:31.572 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:37:31.577 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:37:31.589 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:37:31.602 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:37:31.665 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:37:31.669 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 6.14 seconds (JVM running for 6.776)
+17:37:31.681 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:37:31.681
+17:38:05.102 sms [main] INFO  com.shiroSpringboot.Application - Starting Application on DESKTOP-VGF5J4D with PID 18092 (E:\mywork\shiroSpringboot\target\classes started by xyc in E:\mywork\shiroSpringboot)
+17:38:05.107 sms [main] INFO  com.shiroSpringboot.Application - No active profile set, falling back to default profiles: default
+17:38:05.204 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1169afe1: startup date [Tue Nov 27 17:38:05 CST 2018]; root of context hierarchy
+17:38:06.647 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:38:06.671 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:38:06.684 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:38:06.685 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:38:06.699 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdkJava\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/jdkJava/bin/server;D:/jdkJava/bin;D:/jdkJava/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files\erl9.1\bin;D:\Program Files (x86)\Sybase\PowerDesigner 16;D:\apache-rocketmq\bin;d:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;d:\Ruby24-x64\bin;C:\Users\xyc\AppData\Local\Microsoft\WindowsApps;C:\Users\xyc\AppData\Roaming\npm;d:\Users\xyc\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\xyc\eclipse\jee-oxygen\eclipse;;.]
+17:38:06.816 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:38:06.817 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1613 ms
+17:38:06.895 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:38:06.900 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:38:06.901 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:38:06.901 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:38:06.901 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:38:09.346 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:38:09.712 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1169afe1: startup date [Tue Nov 27 17:38:05 CST 2018]; root of context hierarchy
+17:38:09.802 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:38:09.804 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:38:09.845 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:38:09.851 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:38:09.913 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+17:38:10.228 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:38:10.229 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'getDataSource' has been autodetected for JMX exposure
+17:38:10.237 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'getDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=getDataSource,type=DruidDataSource]
+17:38:10.271 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:38:10.290 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:38:10.336 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:38:10.343 sms [main] INFO  com.shiroSpringboot.Application - Started Application in 5.692 seconds (JVM running for 6.328)
+17:38:10.352 sms [main] INFO  com.shiroSpringboot.Application - shiroSpringboot-》run success at 2018-11-27 17:38:10.352
+17:38:34.095 sms [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:38:34.095 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:38:34.122 sms [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
