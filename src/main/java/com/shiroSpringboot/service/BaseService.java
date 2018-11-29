@@ -18,6 +18,8 @@ public interface BaseService<T,DIT> {
 	int updateByPrimaryKeySelective(T record);
 
 	int updateByPrimaryKey(T record);
+	
+	List<T> selectListSelective(T recourd);
 
 	List<T> selectListSelectivePaging(Page recoud);
 }

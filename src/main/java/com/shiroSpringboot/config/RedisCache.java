@@ -19,6 +19,10 @@ public class RedisCache {
 	@Autowired
 	private RedisTemplate<Object, Object> redisTemplate;
 	
+	/**
+	 * 定义key序列化的方式
+	 * @param redisTemplate
+	 */
 	@Autowired(required = false)
 	public void setRedisTemplate(RedisTemplate<Object,Object> redisTemplate) {
 		StringRedisSerializer stringSerializer = new StringRedisSerializer();

@@ -18,6 +18,8 @@ public interface BaseMapper<T,DIT> {
 
     int updateByPrimaryKey(T record);
     
+    List<T> selectListSelective(T recourd);
+    
     List<T> selectListSelectivePaging(Page page);
 	
 }

@@ -81,4 +81,10 @@ public class BaseServiceImpl<T,DIT> implements BaseService<T, DIT> {
 	
 	}
 
+	@Override
+	public List<T> selectListSelective(T recourd) {
+		// TODO Auto-generated method stub
+		return baseMapper.selectListSelective(recourd);
+	}
+
 }
