@@ -1,5 +1,10 @@
 package com.shiroSpringboot.config.shiro;
 
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -7,13 +12,18 @@ import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
+import com.shiroSpringboot.entity.Menu;
+import com.shiroSpringboot.entity.Role;
 import com.shiroSpringboot.entity.User;
+import com.shiroSpringboot.service.MenuService;
+import com.shiroSpringboot.service.RoleService;
 import com.shiroSpringboot.service.UserService;
 
 
@@ -22,14 +32,35 @@ public class ShiroRealm extends AuthorizingRealm{
 
 	@Autowired
 	private UserService userSer;
+	@Autowired
+	private RoleService roleSer;
+	@Autowired
+	private MenuService menuSer;
 	
 	/**
 	 * 授权
 	 */
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-		// TODO Auto-generated method stub
-		return null;
+		User user = (User)principals.getPrimaryPrincipal();//获取登录用户
+		String username = user.getUsername();
+		SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+		//查询角色
+		List<Role> roleList = roleSer.selectRolesByUsername(username);
+		Set<String> roles = roleList.stream().map(Role::getRoleName).collect(Collectors.toSet());
+		simpleAuthorizationInfo.setRoles(roles);
+		//查询用户所以的权限
+		List<Menu> menuList= menuSer.selectPermissionByUsername(username);
+		Set<String> permissions = new TreeSet<String>();
+		for (Menu menu : menuList) {
+			String permis = menu.getPermission();
+			if(permis != null ) {
+			permissions.add(permis);
+			}
+		}
+		simpleAuthorizationInfo.setStringPermissions(permissions);
+		
+		return simpleAuthorizationInfo;
 	}
 	/**
 	 * 用户认证

@@ -45,6 +45,7 @@ public class ShiroConfig {
 		shiroRealm.setCredentialsMatcher(hashedCredentialsMatcher());
 		return shiroRealm;
 	}
+	
 	/**
 	 * 配置shiro的加密方式
 	 * @return
@@ -55,23 +56,9 @@ public class ShiroConfig {
 		hashedCredentialsMatcher.setHashIterations(1024);//加密次数
 		hashedCredentialsMatcher.setHashAlgorithmName("MD5");
 		//true 使用hex编码加密，false 使用base64位加密
-		hashedCredentialsMatcher.setStoredCredentialsHexEncoded(false);
+		hashedCredentialsMatcher.setStoredCredentialsHexEncoded(true);
 		return hashedCredentialsMatcher;
 		
 	}
 	
-//	 @Bean(name = "credentialsMatcher")
-//	    public CredentialsMatcher credentialsMatcher(CacheManager cacheManager) {
-//	        RetryLimitHashedCredentialsMatcher credentialsMatcher = new RetryLimitHashedCredentialsMatcher(cacheManager);
-//	        //加密方式
-//	        credentialsMatcher.setHashAlgorithmName(properties.getAlgorithmName());
-//	        //加密迭代次数
-//	        credentialsMatcher.setHashIterations(properties.getIteration());
-//	        //true加密用的hex编码，false用的base64编码
-//	        credentialsMatcher.setStoredCredentialsHexEncoded(properties.getHexEncoded());
-//	        //重新尝试的次数（自己定义的）
-//	        credentialsMatcher.setRetryMax(properties.getRetryMax());
-//	        return credentialsMatcher;
-//
-//	 }
 }

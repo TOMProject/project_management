@@ -9,4 +9,7 @@ public interface UserService extends BaseService<User, Integer> {
 	 * @return
 	 */
 	User selectUserByuserName(String username);
+	
+	
+	
 }
