@@ -7,6 +7,7 @@ import java.util.Set;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.UnknownSessionException;
 import org.apache.shiro.session.mgt.eis.AbstractSessionDAO;
+import org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,16 +16,16 @@ import org.springframework.stereotype.Repository;
 import com.shiroSpringboot.config.RedisCache;
 
 /**
- * 自定义redis保存session
+ * 自定义redis保存session extens abstractSessionDao
  * @author 
  *
  */
 @Repository
-public class RedisSessionDao extends AbstractSessionDAO {
+public class RedisSessionDao extends EnterpriseCacheSessionDAO {
 	
 	private static final Logger log = LoggerFactory.getLogger(RedisSessionDao.class);
 
-	private static final String SESSION_KEY_PREFIX="sessionkey_";
+	private static final String SESSION_KEY_PREFIX="sessionkey.";
 	@Autowired
 	private RedisCache redisCache;
 	/**
@@ -52,7 +53,9 @@ public class RedisSessionDao extends AbstractSessionDAO {
 		}
 		
 	}
-
+	/**
+	 * 获取存活的session
+	 */
 	@Override
 	public Collection<Session> getActiveSessions() {
 		log.info("获取存活的session");
@@ -64,7 +67,9 @@ public class RedisSessionDao extends AbstractSessionDAO {
 		}
 		return null;
 	}
-
+	/**
+	 * 创建session
+	 */
 	@Override
 	protected Serializable doCreate(Session session) {
 		 Serializable sessionId = generateSessionId(session);  
@@ -78,7 +83,9 @@ public class RedisSessionDao extends AbstractSessionDAO {
 	        return sessionId; 
 
 	}
-
+	/**
+	 * 获取session
+	 */
 	@Override
 	protected Session doReadSession(Serializable sessionId) {
 		  log.debug("获取seesion,id=[{}]", sessionId.toString());  

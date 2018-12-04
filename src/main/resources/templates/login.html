@@ -8,6 +8,35 @@
 <base>
 </head>
 <body>
-	<h1>登录</h1>	
+	用户名：<input type="text" name="username" id="username"></br>
+	密码：<input type="text" name="password" id="password"></br>
+	<input type="button" value="登陆" onclick="login()">
 </body>
+
+<script>
+	
+	function login(){
+		var user={};
+		var username = $("#username").val();
+		var password = $("#password").val();
+		user.username=username;
+		user.password=password;
+		var json=JSON.stringify(user);
+		console.log(json);
+		 $.ajax({
+			type:"POST",
+			url:"/doLogin/userLogin",
+			data:json,
+			contentType:"application/json",
+		    async:true,
+			success:function(mydata){
+				alert(2432+"dddd");
+				console.log(mydata);
+			}
+		});
+	}
+
+</script>
+
 </html>
+

@@ -22,11 +22,6 @@ import com.shiroSpringboot.vo.AjaxResponse;
 @RequestMapping(value="/doLogin")
 public class LoginController {
 
-	private static final String SESSION_KEY="sessionkey";
-	
-	@Autowired
-	private RedisCache redisCache;
-	
 	
 	@RequestMapping(value="/login",method=RequestMethod.GET)
 	public String doLogin() {
@@ -45,7 +40,7 @@ public class LoginController {
 			ajaxResponse.setMessge("登陆成功");
 			Session session = subject.getSession();
 			long time = session.getTimeout();
-			redisCache.set(SESSION_KEY, session.getId());
+			
 		} catch (UnknownAccountException ex) {
 			ajaxResponse.setMessge("用户名不存在！");
 			return ajaxResponse;

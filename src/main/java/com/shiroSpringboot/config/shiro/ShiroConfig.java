@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -86,13 +87,7 @@ public class ShiroConfig {
         authorizationAttributeSourceAdvisor.setSecurityManager(securityManager());
         return authorizationAttributeSourceAdvisor;
     }
-	
-	
-	
-	
-	
-	
-	
+
 	/**
 	 * 注册session管理器
 	 * @return
@@ -104,15 +99,21 @@ public class ShiroConfig {
 		defaultSessionManager.setSessionIdUrlRewritingEnabled(false);
 		//毫秒为单位
 		defaultSessionManager.setGlobalSessionTimeout(30*60*1000);
-		defaultSessionManager.setSessionDAO(sessionDAO);
-		
+		defaultSessionManager.setSessionDAO(redisSessionDao());
+		//是否开启会话验证器，默认是开启的
+		defaultSessionManager.setSessionValidationSchedulerEnabled(true);
 		return defaultSessionManager;
 		
 	}
 	
-
-	
-	
-	
-	
+	@Bean
+	public RedisSessionDao redisSessionDao() {
+		RedisSessionDao redisSessionDao =new RedisSessionDao();
+		return redisSessionDao;
+	}
+    @Bean(name = "lifecycleBeanPostProcessor")
+    public static LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
+        // shiro 生命周期处理器
+        return new LifecycleBeanPostProcessor();
+    }
 }

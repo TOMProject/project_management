@@ -41,9 +41,9 @@ public class ShiroUtil {
     } 
 	
 	public static void main(String[] args) {
-		System.out.println(passwordMD5("admin", "123456"));
+		System.out.println(passwordMD5("adminee", "123456"));
 //		System.out.println(passwordEncBase64("5201314"));
-		System.out.println(passwordDecBase64("5"));
+		
 	}
 	
 

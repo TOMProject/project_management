@@ -91,7 +91,7 @@ public class RedisConfig {
         //设置默认使用的数据库
         redisStandaloneConfiguration.setDatabase(0);
         //设置密码
-       redisStandaloneConfiguration.setPassword(RedisPassword.of("root"));
+        //redisStandaloneConfiguration.setPassword(RedisPassword.of("root"));
         //设置redis的服务的端口号
         redisStandaloneConfiguration.setPort(Integer.parseInt(port));
         //获得默认的连接池构造器(怎么设计的，为什么不抽象出单独类，供用户使用呢)
