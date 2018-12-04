@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>公共页面引用</title>
+<!-- 获取项目的根目录 -->
+
+<script type="text/javascript" src=getContextPath()+"/static/js/commoJs/commo.js"></script>
+
+</head>
+<body>
+	<h1>公共页面</h1>
+</body>
+
+
+<script type="text/javascript">
+	function getContextPath(){   
+	    var pathName = document.location.pathname;   
+	    var index = pathName.substr(1).indexOf("/");   
+	    var result = pathName.substr(0,index+1);   
+	    return result;   
+	}  
+</script>
+</html>
+

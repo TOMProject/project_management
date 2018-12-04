@@ -1,11 +1,18 @@
 package com.shiroSpringboot.config.shiro;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.DependsOn;
 
 @Configuration
 public class ShiroConfig {
@@ -15,15 +22,15 @@ public class ShiroConfig {
 		ShiroFilterFactoryBean factoryBean = new ShiroFilterFactoryBean(); 
 		factoryBean.setSecurityManager(securityManager());
 		//定义shiro拦截器
-//		Map<String,String> filterChainDefinitionMap = new HashMap<String,String>();
-//		filterChainDefinitionMap.put("/static/**", "anon");//静态资源下的不认证
-//		filterChainDefinitionMap.put("/logout", "logout");//退出
-//		filterChainDefinitionMap.put("/**","authc");//需要认证的路径
-//		factoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
-//		
-//		factoryBean.setLoginUrl("/login");
-//		factoryBean.setSuccessUrl("/index");
-//		factoryBean.setUnauthorizedUrl("/403");//未授权页面
+		Map<String,String> filterChainDefinitionMap = new HashMap<String,String>();
+		filterChainDefinitionMap.put("/static/**", "anon");//静态资源下的不认证
+		filterChainDefinitionMap.put("/logout", "logout");//退出
+		filterChainDefinitionMap.put("/**","authc");//需要认证的路径
+		factoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+		
+		factoryBean.setLoginUrl("/login");//登录页面
+		factoryBean.setSuccessUrl("/index");//登录成功后的主页面
+		factoryBean.setUnauthorizedUrl("/403");//未授权页面
 		
 		return factoryBean;
 	}
@@ -32,11 +39,12 @@ public class ShiroConfig {
 	public SecurityManager securityManager() {
 		DefaultWebSecurityManager defaultWebSecurityManager = new DefaultWebSecurityManager();
 		defaultWebSecurityManager.setRealm(shiroRealm());//管理自定义认证器
+		defaultWebSecurityManager.setSessionManager(sessionManager());//session管理器
 		return defaultWebSecurityManager;
 		
 	}
 	/**
-	 * 注入认证器
+	 * shiro 用户数注入
 	 * @return
 	 */
 	@Bean
@@ -58,7 +66,53 @@ public class ShiroConfig {
 		//true 使用hex编码加密，false 使用base64位加密
 		hashedCredentialsMatcher.setStoredCredentialsHexEncoded(true);
 		return hashedCredentialsMatcher;
+	}
+	
+    /**
+     * DefaultAdvisorAutoProxyCreator 和 AuthorizationAttributeSourceAdvisor 用于开启 shiro 注解的使用
+     * 如 @RequiresAuthentication， @RequiresUser， @RequiresPermissions 等
+     * @return DefaultAdvisorAutoProxyCreator
+     */
+    @Bean
+    @DependsOn({"lifecycleBeanPostProcessor"})
+    public DefaultAdvisorAutoProxyCreator advisorAutoProxyCreator() {
+        DefaultAdvisorAutoProxyCreator advisorAutoProxyCreator = new DefaultAdvisorAutoProxyCreator();
+        advisorAutoProxyCreator.setProxyTargetClass(true);
+        return advisorAutoProxyCreator;
+    }
+    @Bean
+    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor() {
+        AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
+        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager());
+        return authorizationAttributeSourceAdvisor;
+    }
+	
+	
+	
+	
+	
+	
+	
+	/**
+	 * 注册session管理器
+	 * @return
+	 */
+	@Bean
+	public DefaultWebSessionManager sessionManager() {
+		DefaultWebSessionManager defaultSessionManager = new DefaultWebSessionManager();
+		//删除自动在路径上添加sessionId
+		defaultSessionManager.setSessionIdUrlRewritingEnabled(false);
+		//毫秒为单位
+		defaultSessionManager.setGlobalSessionTimeout(30*60*1000);
+		defaultSessionManager.setSessionDAO(sessionDAO);
+		
+		return defaultSessionManager;
 		
 	}
+	
+
+	
+	
+	
 	
 }

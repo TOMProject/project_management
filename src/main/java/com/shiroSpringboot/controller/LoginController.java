@@ -4,7 +4,9 @@ import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.shiroSpringboot.common.Contant;
+import com.shiroSpringboot.config.RedisCache;
 import com.shiroSpringboot.entity.User;
 import com.shiroSpringboot.vo.AjaxResponse;
 
@@ -19,6 +22,12 @@ import com.shiroSpringboot.vo.AjaxResponse;
 @RequestMapping(value="/doLogin")
 public class LoginController {
 
+	private static final String SESSION_KEY="sessionkey";
+	
+	@Autowired
+	private RedisCache redisCache;
+	
+	
 	@RequestMapping(value="/login",method=RequestMethod.GET)
 	public String doLogin() {
 		return "login";
@@ -34,6 +43,9 @@ public class LoginController {
 			subject.login(token);
 			ajaxResponse.setCode(Contant.RESULT_SUCCESS);
 			ajaxResponse.setMessge("登陆成功");
+			Session session = subject.getSession();
+			long time = session.getTimeout();
+			redisCache.set(SESSION_KEY, session.getId());
 		} catch (UnknownAccountException ex) {
 			ajaxResponse.setMessge("用户名不存在！");
 			return ajaxResponse;
