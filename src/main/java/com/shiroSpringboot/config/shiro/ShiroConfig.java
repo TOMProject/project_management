@@ -25,6 +25,8 @@ public class ShiroConfig {
 		//定义shiro拦截器
 		Map<String,String> filterChainDefinitionMap = new HashMap<String,String>();
 		filterChainDefinitionMap.put("/static/**", "anon");//静态资源下的不认证
+		//filterChainDefinitionMap.put("/templates/**", "anon");//静态资源下的不认证
+		filterChainDefinitionMap.put("/userLogin", "anon");
 		filterChainDefinitionMap.put("/logout", "logout");//退出
 		filterChainDefinitionMap.put("/**","authc");//需要认证的路径
 		factoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);

@@ -21,7 +21,7 @@
   
   <select id="selectPermissionByUsername" resultMap="BaseResultMap" parameterType="java.lang.String">
   	select 
-    <include refid="Base_Column_List" />
+    m.*
     from menu as m left join role_menu as rm on m.menu_id = rm.menu_id 
     left join user_role as ur on rm.role_id = ur.role_id 
     left join users as u on ur.user_id = u.id  

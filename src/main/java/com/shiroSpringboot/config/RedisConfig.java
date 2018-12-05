@@ -2,6 +2,7 @@ package com.shiroSpringboot.config;
 
 import java.time.Duration;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -40,6 +41,9 @@ public class RedisConfig {
 	
 	@Value("${redis.port}")
 	private String port;
+	
+	@Value("${redis.password}")
+	private String password;
 	
 	@Value("${redis.pool.minIdle}")
 	private String minIdle;
@@ -91,7 +95,9 @@ public class RedisConfig {
         //设置默认使用的数据库
         redisStandaloneConfiguration.setDatabase(0);
         //设置密码
-        //redisStandaloneConfiguration.setPassword(RedisPassword.of("root"));
+        if(StringUtils.isNotBlank(password)) {
+        	redisStandaloneConfiguration.setPassword(RedisPassword.of(password));
+        }
         //设置redis的服务的端口号
         redisStandaloneConfiguration.setPort(Integer.parseInt(port));
         //获得默认的连接池构造器(怎么设计的，为什么不抽象出单独类，供用户使用呢)

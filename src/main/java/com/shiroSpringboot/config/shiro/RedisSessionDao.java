@@ -28,6 +28,7 @@ public class RedisSessionDao extends EnterpriseCacheSessionDAO {
 	private static final String SESSION_KEY_PREFIX="sessionkey.";
 	@Autowired
 	private RedisCache redisCache;
+	
 	/**
 	 *更新session 
 	 */
@@ -96,7 +97,6 @@ public class RedisSessionDao extends EnterpriseCacheSessionDAO {
 	            log.error(e.getMessage());  
 	        }  
 	        return readSession; 
-
 	}
 
 }

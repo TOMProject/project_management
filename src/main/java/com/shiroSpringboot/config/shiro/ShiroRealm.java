@@ -42,8 +42,9 @@ public class ShiroRealm extends AuthorizingRealm{
 	 */
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-		User user = (User)principals.getPrimaryPrincipal();//获取登录用户
-		String username = user.getUsername();
+		//Object primaryPrincipal = principals.getPrimaryPrincipal();//获取登录用户
+		 	
+		String username = principals.toString();
 		SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
 		//查询角色
 		List<Role> roleList = roleSer.selectRolesByUsername(username);

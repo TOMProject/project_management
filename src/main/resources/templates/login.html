@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>登录页面</title>
 <script type="text/javascript" src="../../static/js/commoJs/commo.js"></script>
-<link type="text/css" rel="stylesheet" href="../../static/css/commoCss/commoCss.js"/>
+<script type="text/javascript" src="../../static/css/commoCss/commoCss.js"></script>
 <base>
 </head>
 <body>
@@ -25,13 +25,16 @@
 		console.log(json);
 		 $.ajax({
 			type:"POST",
-			url:"/doLogin/userLogin",
+			url:"/userLogin",
 			data:json,
 			contentType:"application/json",
 		    async:true,
 			success:function(mydata){
 				alert(2432+"dddd");
 				console.log(mydata);
+				if(mydata.code == "0000"){
+					window.location.href="/";
+				}
 			}
 		});
 	}

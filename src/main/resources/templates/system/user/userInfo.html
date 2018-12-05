@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用户信息</title>
+<!-- <script type="text/javascript" src=../../../static/js/commoJs/commo.js"></script>  -->
+<!-- <script type="text/javascript" src="../../../static/css/commoCss/commoCss.js"></script>  -->
+<script type="text/javascript" src="../../../static/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../../static/layui/layui.all.js"></script>
+
+<link type="text/css" rel="stylesheet" href="../../../static/layui/css/layui.css"></link>
+</head>
+<table class="layui-hide" id="userList"></table>
+
+<script>
+layui.use('table', function(){
+  var table = layui.table;
+  
+  table.render({
+    elem: '#userList'
+    ,url: '/user/listPaging'
+    ,where:{}
+  	,contentType: 'application/json' 
+    ,method: 'post'
+    ,cellMinWidth: 100 //全局定义常规单元格的最小宽度，
+    ,page: true //开启分页
+    ,cols: [[
+      {field:'id', width:80, title: 'ID',sort: true}
+      ,{field:'username',title: '用户名'}
+      ,{field:'reallyName',title: '真实姓名'}
+      ,{field:'phone', title: '电话'}
+
+    ]]
+    
+    	
+    
+  });
+});
+</script>
+
+</body>
+
+</html>

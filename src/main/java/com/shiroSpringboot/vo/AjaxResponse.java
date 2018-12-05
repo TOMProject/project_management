@@ -1,19 +1,24 @@
 package com.shiroSpringboot.vo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AjaxResponse<T> {
 	
 	private String code;
 	
 	private String messge;
 	
-	private T data;
+	private Integer pageCount;
+	
+	private List<T> data = new ArrayList<>() ;
 
 	public AjaxResponse() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	public AjaxResponse(T data) {
+	public AjaxResponse(List<T> data) {
 		setData(data);
 	}
 	
@@ -26,7 +31,7 @@ public class AjaxResponse<T> {
 
 	}
 
-	public AjaxResponse(String code,String messge,T data) {
+	public AjaxResponse(String code,String messge,List<T> data) {
 		this.code=code;
 		this.messge=messge;
 		this.data=data;
@@ -48,12 +53,22 @@ public class AjaxResponse<T> {
 		this.messge = messge;
 	}
 
-	public T getData() {
+
+
+	public List<T> getData() {
 		return data;
 	}
 
-	public void setData(T data) {
+	public void setData(List<T> data) {
 		this.data = data;
+	}
+
+	public Integer getPageCount() {
+		return pageCount;
+	}
+
+	public void setPageCount(Integer pageCount) {
+		this.pageCount = pageCount;
 	}
 	
 	
