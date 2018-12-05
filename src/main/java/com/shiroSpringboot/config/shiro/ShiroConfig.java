@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.cache.ehcache.EhCache;
+import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -43,6 +45,7 @@ public class ShiroConfig {
 		DefaultWebSecurityManager defaultWebSecurityManager = new DefaultWebSecurityManager();
 		defaultWebSecurityManager.setRealm(shiroRealm());//管理自定义认证器
 		defaultWebSecurityManager.setSessionManager(sessionManager());//session管理器
+		defaultWebSecurityManager.setCacheManager(ehCacheManager());//cache管理器
 		return defaultWebSecurityManager;
 		
 	}
@@ -54,6 +57,15 @@ public class ShiroConfig {
 	public ShiroRealm shiroRealm() {
 		ShiroRealm shiroRealm = new ShiroRealm();
 		shiroRealm.setCredentialsMatcher(hashedCredentialsMatcher());
+		//开启缓存
+		shiroRealm.setCachingEnabled(true);
+		//开启认证缓存
+		shiroRealm.setAuthenticationCachingEnabled(true);
+		shiroRealm.setAuthenticationCacheName("authenticationCache");
+		//开启授权缓存
+		shiroRealm.setAuthorizationCachingEnabled(true);
+		shiroRealm.setAuthorizationCacheName("authorizationCache");
+		//修改改了权限要调用清除缓存的方法
 		return shiroRealm;
 	}
 	
@@ -113,6 +125,15 @@ public class ShiroConfig {
 		RedisSessionDao redisSessionDao =new RedisSessionDao();
 		return redisSessionDao;
 	}
+	
+	@Bean
+	public EhCacheManager ehCacheManager() {
+		EhCacheManager cacheManager = new EhCacheManager();
+		cacheManager.setCacheManagerConfigFile("classpath:/config/shiro-ehcache.xml");
+		return null;
+		
+	}
+	
     @Bean(name = "lifecycleBeanPostProcessor")
     public static LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
         // shiro 生命周期处理器

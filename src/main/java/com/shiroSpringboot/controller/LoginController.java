@@ -37,12 +37,13 @@ public class LoginController {
 	public AjaxResponse<User> login(@RequestBody User user){
 		AjaxResponse<User> ajaxResponse = new AjaxResponse<>(Contant.RESULT_ERROR,"登陆失败！");
 		UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(),user.getPassword());
+		token.setRememberMe(true);
 		Subject subject = SecurityUtils.getSubject();
 		try {
 			subject.login(token);
 			ajaxResponse.setCode(Contant.RESULT_SUCCESS);
 			ajaxResponse.setMessge("登陆成功");
-			//ajaxResponse.setData(user);	
+		
 		} catch (UnknownAccountException ex) {
 			ajaxResponse.setMessge("用户名不存在！");
 			return ajaxResponse;
