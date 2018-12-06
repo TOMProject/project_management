@@ -12,6 +12,8 @@ public class User implements Serializable{
     private String reallyName;
 
     private String phone;
+    
+    private boolean rememberMe;
 
     public Integer getId() {
         return id;
@@ -52,4 +54,14 @@ public class User implements Serializable{
     public void setPhone(String phone) {
         this.phone = phone == null ? null : phone.trim();
     }
+
+	public boolean getRememberMe() {
+		return rememberMe;
+	}
+
+	public void setRememberMe(boolean rememberMe) {
+		this.rememberMe = rememberMe;
+	}
+    
+    
 }

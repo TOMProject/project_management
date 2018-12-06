@@ -1,10 +1,8 @@
 package com.shiroSpringboot.controller;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.shiroSpringboot.common.Contant;
-import com.shiroSpringboot.config.RedisCache;
 import com.shiroSpringboot.entity.User;
 import com.shiroSpringboot.service.UserService;
 import com.shiroSpringboot.vo.AjaxResponse;
@@ -26,10 +23,7 @@ public class UserController {
 
 	@Autowired
 	private UserService userSer;
-	@Autowired
-	private RedisCache redisCache;
-	
-	
+
 	@RequestMapping(value="/listPaging",method=RequestMethod.POST)
 	@RequiresPermissions("user:listPaging")
 	@ResponseBody

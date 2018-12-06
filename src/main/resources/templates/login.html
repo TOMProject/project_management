@@ -10,6 +10,7 @@
 <body>
 	用户名：<input type="text" name="username" id="username"></br>
 	密码：<input type="text" name="password" id="password"></br>
+	 下次自动登录：<input type="checkbox" name="rememberMe" value="true" checked="checked"  id="rememberMe"><br/>
 	<input type="button" value="登陆" onclick="login()">
 </body>
 
@@ -19,8 +20,10 @@
 		var user={};
 		var username = $("#username").val();
 		var password = $("#password").val();
+		var rememberMe = $("#rememberMe").val();
 		user.username=username;
 		user.password=password;
+		user.rememberMe=rememberMe;
 		var json=JSON.stringify(user);
 		console.log(json);
 		 $.ajax({
@@ -30,7 +33,6 @@
 			contentType:"application/json",
 		    async:true,
 			success:function(mydata){
-				alert(2432+"dddd");
 				console.log(mydata);
 				if(mydata.code == "0000"){
 					window.location.href="/";

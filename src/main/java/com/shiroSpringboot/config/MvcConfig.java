@@ -31,6 +31,7 @@ public class MvcConfig implements WebMvcConfigurer	{
                 .addPathPatterns("/**")
                 .excludePathPatterns("/userLogin")//排除拦截的api
                 .excludePathPatterns("/login")
+                .excludePathPatterns("/logout")
                 .excludePathPatterns("/static/**")
         		.excludePathPatterns("/templates/**");
        
