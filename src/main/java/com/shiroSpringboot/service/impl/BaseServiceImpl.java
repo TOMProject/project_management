@@ -12,7 +12,6 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.shiroSpringboot.mapper.BaseMapper;
 import com.shiroSpringboot.service.BaseService;
-import com.shiroSpringboot.vo.AjaxResponse;
 import com.shiroSpringboot.vo.Page;
 
 @Service

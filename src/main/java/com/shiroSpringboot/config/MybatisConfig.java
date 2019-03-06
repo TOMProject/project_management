@@ -14,16 +14,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
-import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 
 import com.github.pagehelper.PageInterceptor;
 
 @Configuration
 @EnableTransactionManagement
-public class MybatisConfig  implements TransactionManagementConfigurer{
+public class MybatisConfig {
 
     @Value("${spring.datasource.mybatis.model}")
     private String classPathEntity;
@@ -65,14 +62,11 @@ public class MybatisConfig  implements TransactionManagementConfigurer{
     public SqlSessionTemplate sqlSessionTemplate(SqlSessionFactory sqlSessionFactory) {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
-	
-	/**
-	 * 这里最好自定义管理
-	 */
-    @Bean
-    @Override
-    public PlatformTransactionManager annotationDrivenTransactionManager() {
-        return new DataSourceTransactionManager(datasource);
-    }
-	
+
+//    @Bean
+//    @Override
+//    public PlatformTransactionManager annotationDrivenTransactionManager() {
+//        return new DataSourceTransactionManager(datasource);
+//    }
+//	
 }

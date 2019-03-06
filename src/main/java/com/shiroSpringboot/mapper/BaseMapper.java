@@ -2,6 +2,7 @@ package com.shiroSpringboot.mapper;
 
 import java.util.List;
 
+
 import com.shiroSpringboot.vo.Page;
 
 public interface BaseMapper<T,DIT> {

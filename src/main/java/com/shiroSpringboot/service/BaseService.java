@@ -2,7 +2,7 @@ package com.shiroSpringboot.service;
 
 import java.util.List;
 
-import com.shiroSpringboot.entity.User;
+
 import com.shiroSpringboot.vo.Page;
 
 public interface BaseService<T,DIT> {
