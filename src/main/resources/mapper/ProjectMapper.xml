@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shiroSpringboot.mapper.ProjectMapper" >
+
+    <resultMap id="BaseResultMap" type="com.shiroSpringboot.entity.Project" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="project_name" property="projectName" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="create_id" property="createId" jdbcType="INTEGER" />
+        <result column="project_code" property="projectCode" jdbcType="VARCHAR" />
+        <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+        <result column="is_leaf" property="isLeaf" jdbcType="TINYINT" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, project_name, create_time, create_id, project_code, parent_id, is_leaf
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from project
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+	<select id="selectProjectByProjectCode" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select  
+		 <include refid="Base_Column_List" />
+		from project
+		where project_code= #{projectCode,jdbcType=VARCHAR}
+	</select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from project
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <insert id="insertSelective" parameterType="com.shiroSpringboot.entity.Project" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into project
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="projectName != null" >
+                project_name,
+            </if>
+            <if test="createTime != null" >
+                create_time,
+            </if>
+            <if test="createId != null" >
+                create_id,
+            </if>
+            <if test="projectCode != null" >
+                project_code,
+            </if>
+            <if test="parentId != null" >
+                parent_id,
+            </if>
+            <if test="isLeaf != null" >
+                is_leaf,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="projectName != null" >
+                #{projectName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null" >
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createId != null" >
+                #{createId,jdbcType=INTEGER},
+            </if>
+            <if test="projectCode != null" >
+                #{projectCode,jdbcType=VARCHAR},
+            </if>
+            <if test="parentId != null" >
+                #{parentId,jdbcType=BIGINT},
+            </if>
+            <if test="isLeaf != null" >
+                #{isLeaf,jdbcType=TINYINT},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.shiroSpringboot.entity.Project" >
+        update project
+        <set >
+            <if test="projectName != null" >
+                project_name = #{projectName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createId != null" >
+                create_id = #{createId,jdbcType=INTEGER},
+            </if>
+            <if test="projectCode != null" >
+                project_code = #{projectCode,jdbcType=VARCHAR},
+            </if>
+            <if test="parentId != null" >
+                parent_id = #{parentId,jdbcType=BIGINT},
+            </if>
+            <if test="isLeaf != null" >
+                is_leaf = #{isLeaf,jdbcType=TINYINT},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+</mapper>
