@@ -78,7 +78,7 @@ public class ActivityTest {
 		// defaultProcessEngine.getRepositoryService()
 		// .deleteDeployment(deploymentId);
 		// 级联删除，不敢流程是否启动都删除
-		defaultProcessEngine.getRepositoryService().deleteDeployment(deploymentId);
+		defaultProcessEngine.getRepositoryService().deleteDeployment(deploymentId,true);
 		System.out.println("删除成功");
 	}
 
